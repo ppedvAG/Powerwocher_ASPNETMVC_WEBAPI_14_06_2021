@@ -1,10 +1,12 @@
 ﻿TAG1:
-- [ ] Einführungs DI 
-- [ ] Dependency Injection / Seperation of Concerne (3 Stunden) 
+- [x] Einführungs DI 
+- [x] Dependency Injection / Seperation of Concerne (3 Stunden) 
 - [ ] Startup-Klasse
-- [ ] IServiceCollection / ServiceProvider
-- [ ] Konfigurationen einlesen
-- [ ] DI-SDependencyInjectionSamplepecials -> Mocks, Entwickler - Prozess
+- [x] IServiceCollection / ServiceProvider
+- [x] Konfigurationen einlesen
+- [x] DI-SDependencyInjectionSamplepecials -> Mocks, Entwickler - Prozess
+
+
 - [ ] Präsentationsschicht (1 Stunde) 
 - [ ] Razor-Syntax / RazorEngine 
 - [ ] MVC
@@ -48,4 +50,8 @@ Weitere Views
 - [ ] EF Core Einstieg (Optional....w�rde in WebAPI oder MVC)
   - [ ] Code First / Code First Reverse
   - [ ] Repository / UnitOfWork Pattern in EF
-  - [ ] Datensatz bearbeiten > f�r Datensatz sperren
+
+
+- Fragerunde
+
+- typischer Transient UseCase (bei dem Scope nicht ausreichen würde).

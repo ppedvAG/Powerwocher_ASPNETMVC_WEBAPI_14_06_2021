@@ -1,0 +1,88 @@
+﻿@model ASPNETCORE_MVCSamples.ViewModels.MovieOverviewVM
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<!-- in HTML wollen wir auf die Daten zugreifen -> -->
+<p>@Model.BlueRayURL</p>
+
+@if (Model.Movie.Id == 1)
+{
+    <p>@Model.Movie.Title</p>
+    <p>@Model.Movie.Description</p>
+}
+
+@if (Model.Casts.Count() == 0)
+{
+    <p>Es wurden noch keine Schauspieler eingestellt</p>
+    RenderName("Keine Schauspieler vorhanden");
+}
+else
+{
+    <!-- Tabelle wird gezeichnet-->
+    <table class="table">
+        <!-- Tabellen Header -> wie sehen die Columns aus -->
+        <thead>
+            <!--Erste Zeile in Tabelle sind die Columns-->
+            <tr>
+                <!--Spalte 1-->
+                <th>
+                    @Html.DisplayNameFor(model => model.Casts[0].Firstname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Casts[0].Lastname)
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Artists currentArtist in Model.Casts)
+            {
+                <!-- Neue Zeile-->
+                <tr>
+                    <!-- Spalte 1-->
+                    <td>
+                        @Html.DisplayFor(modelItem => currentArtist.Firstname)
+                    </td>
+
+                    <!-- Spalte 2-->
+                    <td>
+                        @Html.DisplayFor(modelItem => currentArtist.Lastname)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Contact the Artist", "Index", "Home");
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@{
+    //Hier kann ich C# Programmieren
+    int Lottozahlen = 1234567;
+
+    
+    void RenderName(string name)
+    {
+        <p>Name: <strong>@name</strong></p>
+    }
+
+    RenderName("Mahatma Gandhi");
+    RenderName("Martin Luther King, Jr.");
+  
+
+}
+
+<p>@Lottozahlen</p>
+
+
+
+

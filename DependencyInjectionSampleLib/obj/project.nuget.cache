@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ysl6hYqUEcOpH1xSws5GpwOfLON7Q6SnrFS+DfEz7k1BAe4dgFzPamRwcIyjBmgpGkgL4aGN1jYoLP3c6RclEQ==",
+  "dgSpecHash": "ICeCVL/smdBxtmcbJ6LW/0q/60kQ3DWitjJElYhTYVwqO8iUqcq3cP9Q+x908ebXhNx+HVOGERUbj0mRV9+zWQ==",
   "success": true,
-  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCORE_MVC_14062021\\DependencyInjectionSampleLib\\DependencyInjectionSampleLib.csproj",
+  "projectFilePath": "C:\\Aktueller Kurs\\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\\DependencyInjectionSampleLib\\DependencyInjectionSampleLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

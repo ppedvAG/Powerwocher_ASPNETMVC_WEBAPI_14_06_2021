@@ -1,7 +1,10 @@
+using ASPNETCORE_MVCSamples.Data;
+using ASPNETCORE_MVCSamples.Models;
 using DependencyInjectionSampleLib;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -14,7 +17,7 @@ namespace ASPNETCORE_MVCSamples
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration) //IConfiguration lädt die Appsetting.json
+        public Startup(IConfiguration configuration) //IConfiguration geladener Zustand von Appsetting.json
         {
             Configuration = configuration;
         }
@@ -25,20 +28,29 @@ namespace ASPNETCORE_MVCSamples
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddSingleton<ICar, MockCar>();
-            services.AddSingleton<ICar, Car>();
-            //services.AddSingleton(typeof(ICar), typeof(MockCar)); //weitere Variante (anderer Schreibstil)
-
-            //services.AddScoped();
-            //services.AddTransient()
-
             //MVC
             services.AddControllersWithViews(); //MVC Projekte -> benötigte Verzeichnisse -> Controllers + Views
+            services.Configure<SampleWebSettings>(Configuration);
+            services.AddSingleton<ICar, MockCar>();
+
+
+            services.AddDbContext<MovieDbContext>(options =>
+            {
+                options.UseInMemoryDatabase("MovieDB");
+            });
+
+
+            //services.AddSingleton<ICar, Car>();
+            //services.AddSingleton(typeof(ICar), typeof(MockCar)); //weitere Variante (anderer Schreibstil)
+            //services.AddScoped(); //new DbContext(conString) -> 
+            //services.AddTransient()
+
+           
 
 
             #region Weitere Framework-Möglichkeiten
             // Razor Pages Framework
-            services.AddRazorPages(); // Razor Pages Framework -< benötigt Pages-Verzeichnis 
+            //services.AddRazorPages(); // Razor Pages Framework -< benötigt Pages-Verzeichnis 
 
 
             //WebAPI
@@ -83,12 +95,26 @@ namespace ASPNETCORE_MVCSamples
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                //MVC Endpunkt: https://localhost:12345/[Controllername]/[ActionMethode]/(optional->ID)
+
+                //AbsoluteURL:  https://localhost:12345/Home/Index
+                //Ohne ActionMethode Angabe->lande ich immer noch auf der Index:
+                //https://localhost:12345/Home/ 
+
+                //AbsoluteURL:  https://localhost:12345/
+                //Ohne Controller Angabe -> Defaultwert -> Home
+                //Ohne ActionMethode Angabe->lande ich immer noch auf der Index:
+                //https://localhost:12345/Home/ 
+
+
+
                 #region weitere Framework Varianten
                 //Endpunkt für RazorPages
-                endpoints.MapRazorPages();
+                //endpoints.MapRazorPages();
 
                 //Endpunkt für WebAPI 
-                endpoints.MapControllers();
+                //endpoints.MapControllers();
                 #endregion
             });
         }

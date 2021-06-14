@@ -26,9 +26,10 @@ namespace ASPNETCORE_MVCSamples.Controllers
             _car = car;
         }
 
-        public IActionResult Index()
+        //[HttpGet]
+        public IActionResult Index() 
         {
-            return View();
+            return View(); //->liefert er den HTML Code der Index-View
         }
 
         public IActionResult Privacy()

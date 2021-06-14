@@ -1,0 +1,11 @@
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\bin\Debug\net5.0\DependencyInjectionSampleLib.deps.json
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\bin\Debug\net5.0\DependencyInjectionSampleLib.dll
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\bin\Debug\net5.0\ref\DependencyInjectionSampleLib.dll
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\bin\Debug\net5.0\DependencyInjectionSampleLib.pdb
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.dll
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\obj\Debug\net5.0\ref\DependencyInjectionSampleLib.dll
+C:\Aktueller Kurs\ASPNETCORE_MVC_14062021\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.pdb

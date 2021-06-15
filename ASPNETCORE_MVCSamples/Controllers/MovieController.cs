@@ -20,9 +20,19 @@ namespace ASPNETCORE_MVCSamples.Controllers
         }
 
         // GET: Movie
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Movies.ToListAsync());
+        public async Task<IActionResult> Index(string query)
+        { 
+            if (!string.IsNullOrEmpty(query))
+            {
+                //ViewData ist eine Einmalnachricht von Controller an View 
+                ViewData["FilterQuery"] = query;
+            }
+
+            IList<Movie> filterdList = string.IsNullOrEmpty(query) ?
+                await _context.Movies.ToListAsync() :
+                await _context.Movies.Where(q => q.Title.Contains(query)).ToListAsync();
+
+            return View(filterdList);
         }
 
         // GET: Movie/Details/5
@@ -86,7 +96,7 @@ namespace ASPNETCORE_MVCSamples.Controllers
             {
                 return NotFound();
             }
-            return View(movie);
+            return View(movie); //Edit Formular zum Bearbeiten des Datensatzes
         }
 
         // POST: Movie/Edit/5
@@ -156,6 +166,33 @@ namespace ASPNETCORE_MVCSamples.Controllers
         private bool MovieExists(int id)
         {
             return _context.Movies.Any(e => e.Id == id);
+        }
+
+        [HttpPost]
+        public IActionResult Buy(int? id)
+        {
+            if (!id.HasValue)
+            {
+                return NotFound();
+            }
+
+            //Wir wird der Warenkorb befüllt. Beim Thema Session -> wird weiterprogrammiert
+
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public IActionResult Wish (int? id)
+        {
+            if (!id.HasValue)
+            {
+                return NotFound();
+            }
+
+            //Wir wird der Warenkorb befüllt. Beim Thema Session -> wird weiterprogrammiert
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

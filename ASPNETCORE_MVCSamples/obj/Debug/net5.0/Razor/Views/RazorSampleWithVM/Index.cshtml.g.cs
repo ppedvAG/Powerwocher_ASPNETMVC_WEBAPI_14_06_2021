@@ -26,8 +26,15 @@ using ASPNETCORE_MVCSamples.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\Views\_ViewImports.cshtml"
+using ASPNETCORE_MVCSamples.TagHelpers;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c4f166972d42598de637367d49c585dd4561ae4e", @"/Views/RazorSampleWithVM/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ba45fc2c10dfdc35422a17a4a85d3148843e127e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3a12e62a0385164f1129db5296446ac4f320b128", @"/Views/_ViewImports.cshtml")]
     public class Views_RazorSampleWithVM_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ASPNETCORE_MVCSamples.ViewModels.MovieOverviewVM>
     {
         #pragma warning disable 1998

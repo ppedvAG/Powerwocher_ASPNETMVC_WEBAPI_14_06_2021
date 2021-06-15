@@ -496,3 +496,9 @@ C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamp
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\obj\Debug\net5.0\Razor\Views\Movie\Edit.cshtml.g.cs
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\obj\Debug\net5.0\Razor\Views\Movie\Index.cshtml.g.cs
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\bin\Debug\net5.0\libman.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\obj\Debug\net5.0\Razor\Views\Shared\_DatePartial.cshtml.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\obj\Debug\net5.0\Razor\Views\PartialViewSample\Index.cshtml.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\obj\Debug\net5.0\Razor\Views\Shared\_SpecialOfferPartialView.cshtml.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\obj\Debug\net5.0\Razor\Views\Demo\Index.cshtml.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\obj\Debug\net5.0\Razor\Views\RazorSampleWithVM\HtmlHelper.cshtml.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\obj\Debug\net5.0\Razor\Views\RazorSampleWithVM\CustomTagHelper.cshtml.g.cs

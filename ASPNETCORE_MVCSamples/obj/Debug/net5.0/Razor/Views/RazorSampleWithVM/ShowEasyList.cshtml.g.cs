@@ -26,8 +26,15 @@ using ASPNETCORE_MVCSamples.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ASPNETCORE_MVCSamples\Views\_ViewImports.cshtml"
+using ASPNETCORE_MVCSamples.TagHelpers;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab8", @"/Views/RazorSampleWithVM/ShowEasyList.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ba45fc2c10dfdc35422a17a4a85d3148843e127e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3a12e62a0385164f1129db5296446ac4f320b128", @"/Views/_ViewImports.cshtml")]
     public class Views_RazorSampleWithVM_ShowEasyList : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<ASPNETCORE_MVCSamples.Models.Artists>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -69,7 +76,7 @@ using ASPNETCORE_MVCSamples.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>ShowEasyList</h1>\r\n\r\n<p>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab84893", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab85124", async() => {
                 WriteLiteral("Create New");
             }
             );
@@ -125,7 +132,7 @@ using ASPNETCORE_MVCSamples.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab87999", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab88230", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -156,7 +163,7 @@ using ASPNETCORE_MVCSamples.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab810212", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab810443", async() => {
                 WriteLiteral("Details");
             }
             );
@@ -187,7 +194,7 @@ using ASPNETCORE_MVCSamples.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab812432", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e278e3402a69cf1ab6ce5f810fb78fb2bf4b6ab812663", async() => {
                 WriteLiteral("Delete");
             }
             );

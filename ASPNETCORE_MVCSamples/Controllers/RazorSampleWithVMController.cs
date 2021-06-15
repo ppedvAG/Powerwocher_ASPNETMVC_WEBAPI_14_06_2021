@@ -13,7 +13,6 @@ namespace ASPNETCORE_MVCSamples.Controllers
     {
         private readonly MovieDbContext _context;
 
-
         public RazorSampleWithVMController(MovieDbContext context)
         {
             _context = context;
@@ -68,6 +67,16 @@ namespace ASPNETCORE_MVCSamples.Controllers
             });
 
             return View(artists);
+        }
+
+        public IActionResult HtmlHelper()
+        {
+            return View();
+        }
+
+        public IActionResult CustomTagHelper ()
+        {
+            return View();
         }
     }
 }

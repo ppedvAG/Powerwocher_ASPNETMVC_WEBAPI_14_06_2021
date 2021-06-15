@@ -5,28 +5,26 @@
 - [x] IServiceCollection / ServiceProvider
 - [x] Konfigurationen einlesen
 - [x] DI-SDependencyInjectionSamplepecials -> Mocks, Entwickler - Prozess
-
-
-- [ ] Präsentationsschicht (1 Stunde) 
-- [ ] Razor-Syntax / RazorEngine 
-- [ ] MVC
-- [ ] Einbinden einer HotReload Middleware
+- [x] Präsentationsschicht (1 Stunde) 
+- [x] Razor-Syntax / RazorEngine 
+- [x] MVC
+- [x] Einbinden einer HotReload Middleware
 
 
 Tag2:
 
 Dependency Injcetion + Konfigurationen
-- [ ] Logging + Fehlerbehandlung 
+- [x] Logging 
 
 Die Controller-Klasse (MVC)
-- [ ] Überblick über HTTPContext und Controller-Basisklasse
-- [ ] QueryString bei Get-Methoden
-- [ ] Ein Formular mit mehren Buttons (Post-Methoden)
-- [ ] HTML-Helper
-- [ ] TagHelpers
-- [ ] Data Annotations 
-- [ ] Validierung 
-- [ ] Gehen Geldbeträge mit Komma 
+- [o] Überblick über HTTPContext und Controller-Basisklasse
+- [x] QueryString bei Get-Methoden
+- [x] Ein Formular mit mehren Buttons (Post-Methoden)
+- [x] HTML-Helper
+- [x] TagHelpers
+- [x] Data Annotations 
+- [x] Validierung 
+- [x] Gehen Geldbeträge mit Komma 
 
 State-Management
 - [ ] ViewData////
@@ -35,7 +33,7 @@ State-Management
 - [ ] Session-Handling
 
 Weitere Views
-- [ ] PartialView
+- [x] PartialView
 - [ ] ViewComponents & Localization
 - [ ] Identity UI in ASP.NET Core MVC
 

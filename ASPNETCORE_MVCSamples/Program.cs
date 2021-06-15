@@ -4,8 +4,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Serilog;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -15,6 +17,15 @@ namespace ASPNETCORE_MVCSamples
     {
         public static void Main(string[] args)
         {
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json").Build();
+
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(configuration)
+                .CreateLogger();
+
+
             IHost host = CreateHostBuilder(args).Build();
             //Setze Testdaten ein
             SeedDatabase(host);
@@ -28,6 +39,7 @@ namespace ASPNETCORE_MVCSamples
             {
                 config.AddJsonFile("samplewebsettings.json", optional: false, reloadOnChange: true);
             })
+            .UseSerilog()
             //Kestrel - WebService liegt als Default-Server bei. 
             .ConfigureWebHostDefaults(webBuilder =>
             {

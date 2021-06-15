@@ -50,5 +50,24 @@ namespace ASPNETCORE_MVCSamples.Controllers
             //Model/ViewModel(Daten) werden von Controller an die View übergeben
             return View(vm);
         }
+
+        public IActionResult ShowEasyList()
+        {
+            IList<Artists> artists = new List<Artists>();
+            artists.Add(new Models.Artists
+            {
+                Id = 1,
+                Firstname = "Maria",
+                Lastname = "Musterfrau"
+            });
+            artists.Add(new Models.Artists
+            {
+                Id = 1,
+                Firstname = "Max",
+                Lastname = "Mustermann"
+            });
+
+            return View(artists);
+        }
     }
 }

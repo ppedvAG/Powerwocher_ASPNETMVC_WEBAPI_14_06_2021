@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Westwind.AspNetCore.LiveReload;
 
 namespace ASPNETCORE_MVCSamples
 {
@@ -27,17 +28,32 @@ namespace ASPNETCORE_MVCSamples
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddLiveReload(config =>
+            //{
+            //    //Configurationen
+
+            //    // optional - use config instead
+            //    //config.LiveReloadEnabled = true;
+            //    //config.FolderToMonitor = Path.GetFullname(Path.Combine(Env.ContentRootPath,"..")) ;
+            //});
+
+            //Beispiel für LiveReload -> Westwind.LiveReload
+            //services.AddControllersWithViews().AddRazorRuntimeCompilation(); //MVC Projekte -> benötigte Verzeichnisse -> Controllers + Views
 
             //MVC
-            services.AddControllersWithViews(); //MVC Projekte -> benötigte Verzeichnisse -> Controllers + Views
+            services.AddControllersWithViews();
             services.Configure<SampleWebSettings>(Configuration);
             services.AddSingleton<ICar, MockCar>();
 
 
             services.AddDbContext<MovieDbContext>(options =>
             {
+                //Configurationen
                 options.UseInMemoryDatabase("MovieDB");
             });
+
+
+            
 
 
             //services.AddSingleton<ICar, Car>();
@@ -45,7 +61,7 @@ namespace ASPNETCORE_MVCSamples
             //services.AddScoped(); //new DbContext(conString) -> 
             //services.AddTransient()
 
-           
+
 
 
             #region Weitere Framework-Möglichkeiten
@@ -70,6 +86,7 @@ namespace ASPNETCORE_MVCSamples
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+               //app.UseLiveReload();
             }
             else
             {

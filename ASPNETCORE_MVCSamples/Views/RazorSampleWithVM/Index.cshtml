@@ -29,13 +29,15 @@ else
         <thead>
             <!--Erste Zeile in Tabelle sind die Columns-->
             <tr>
-                <!--Spalte 1-->
+                <!--Column 1-->
                 <th>
                     @Html.DisplayNameFor(model => model.Casts[0].Firstname)
                 </th>
+                <!--Column 2-->
                 <th>
                     @Html.DisplayNameFor(model => model.Casts[0].Lastname)
                 </th>
+                <!--Column 3-->
                 <th>
 
                 </th>
@@ -45,20 +47,22 @@ else
             @foreach (Artists currentArtist in Model.Casts)
             {
                 <!-- Neue Zeile-->
-                <tr>
-                    <!-- Spalte 1-->
-                    <td>
-                        @Html.DisplayFor(modelItem => currentArtist.Firstname)
-                    </td>
+            <tr>
+                <!-- Spalte 1-->
+                <td>
+                    @Html.DisplayFor(modelItem => currentArtist.Firstname)
+                </td>
 
-                    <!-- Spalte 2-->
-                    <td>
-                        @Html.DisplayFor(modelItem => currentArtist.Lastname)
-                    </td>
-                    <td>
-                        @Html.ActionLink("Contact the Artist", "Index", "Home");
-                    </td>
-                </tr>
+                <!-- Spalte 2-->
+                <td>
+                    @Html.DisplayFor(modelItem => currentArtist.Lastname)
+                </td>
+
+                <!-- Spalte 3-->
+                <td>
+                    @Html.ActionLink("Contact the Artist", "Index", "Home");
+                </td>
+            </tr>
             }
         </tbody>
     </table>

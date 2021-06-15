@@ -55,3 +55,13 @@ Weitere Views
 - Fragerunde
 
 - typischer Transient UseCase (bei dem Scope nicht ausreichen würde).
+
+
+
+
+
+Link-Collection:
+
+aktuelle .net entwicklung -> themesof.net
+Serilog kann in DB schreiben -> https://www.c-sharpcorner.com/article/how-to-implementation-serilog-in-asp-net-core-5-0-application-with-database/
+

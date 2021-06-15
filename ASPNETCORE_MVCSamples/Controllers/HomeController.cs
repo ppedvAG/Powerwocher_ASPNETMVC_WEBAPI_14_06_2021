@@ -29,11 +29,13 @@ namespace ASPNETCORE_MVCSamples.Controllers
         //[HttpGet]
         public IActionResult Index() 
         {
+            _logger.LogInformation("Willkommen auf Startseite");
             return View(); //->liefert er den HTML Code der Index-View
         }
 
         public IActionResult Privacy()
         {
+            _logger.LogInformation("Willkommen auf Startseite");
             return View();
         }
 

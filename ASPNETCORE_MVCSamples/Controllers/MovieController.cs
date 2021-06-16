@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASPNETCORE_MVCSamples.Data;
 using ASPNETCORE_MVCSamples.Models;
+using Microsoft.AspNetCore.Http;
+using System.Text.Json;
 
 namespace ASPNETCORE_MVCSamples.Controllers
 {
@@ -178,6 +180,24 @@ namespace ASPNETCORE_MVCSamples.Controllers
 
             //Wir wird der Warenkorb befüllt. Beim Thema Session -> wird weiterprogrammiert
 
+            if (HttpContext.Session.IsAvailable)
+            {
+                List<int> idList = new List<int>();
+
+                //Schauen, ob der Warenkorb schon existiert
+                if (HttpContext.Session.Keys.Contains("ShoppingCart"))
+                {
+                    //Lese vorhandene ids 
+                    string jsonIdList = HttpContext.Session.GetString("ShoppingCart");
+
+                    idList = JsonSerializer.Deserialize<List<int>>(jsonIdList);
+                }
+
+                idList.Add(id.Value);
+
+                string jsonString = JsonSerializer.Serialize(idList);
+                HttpContext.Session.SetString("ShoppingCart", jsonString);
+            }
 
             return RedirectToAction(nameof(Index));
         }

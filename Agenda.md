@@ -27,15 +27,15 @@ Die Controller-Klasse (MVC)
 - [x] Gehen Geldbeträge mit Komma 
 
 State-Management
-- [ ] ViewData////
-- [ ] ViewBag
-- [ ] TempData
-- [ ] Session-Handling
+- [x] ViewData////
+- [x] ViewBag
+- [x] TempData
+- [x] Session-Handling -> Bauen einen Warenkorb (mit Artikel entfernen)
 
 Weitere Views
 - [x] PartialView
-- [ ] ViewComponents & Localization
-- [ ] Identity UI in ASP.NET Core MVC
+- [ ] ViewComponents & Localization -> Referenz Projekte anschauen
+- [x] Identity UI in ASP.NET Core MVC -> weitere UseCases zu PartialView
 
 - Routing
 - [ ] Konventionelles Routing
@@ -45,7 +45,7 @@ Weitere Views
 
 - [ ] Filter
 
-- [ ] EF Core Einstieg (Optional....w�rde in WebAPI oder MVC)
+- [ ] EF Core Einstieg 
   - [ ] Code First / Code First Reverse
   - [ ] Repository / UnitOfWork Pattern in EF
 
@@ -63,3 +63,7 @@ Link-Collection:
 aktuelle .net entwicklung -> themesof.net
 Serilog kann in DB schreiben -> https://www.c-sharpcorner.com/article/how-to-implementation-serilog-in-asp-net-core-5-0-application-with-database/
 
+
+
+Filter vs. Middleware 
+- 

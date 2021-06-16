@@ -1,5 +1,6 @@
 ﻿using ASPNETCORE_MVCSamples.Models;
 using DependencyInjectionSampleLib;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -11,6 +12,8 @@ using System.Threading.Tasks;
 
 namespace ASPNETCORE_MVCSamples.Controllers
 {
+
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -33,6 +36,10 @@ namespace ASPNETCORE_MVCSamples.Controllers
             return View(); //->liefert er den HTML Code der Index-View
         }
 
+
+        //Hat benutzer die Role Admin
+        //[Authorize("Admin")]
+        //[Authorize("Support")]
         public IActionResult Privacy()
         {
             _logger.LogInformation("Willkommen auf Startseite");

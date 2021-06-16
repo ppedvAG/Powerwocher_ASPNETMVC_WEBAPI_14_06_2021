@@ -12,9 +12,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETCORE_MVCSamples", "AS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjectionSampleLib", "DependencyInjectionSampleLib\DependencyInjectionSampleLib.csproj", "{2EB6EB98-961C-4FF8-AE51-A3D274438903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollectionAndServiceProviderSample", "ServiceCollectionAndServiceProviderSample\ServiceCollectionAndServiceProviderSample.csproj", "{C2118640-8C56-4408-9B89-FCA22D88E049}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceCollectionAndServiceProviderSample", "ServiceCollectionAndServiceProviderSample\ServiceCollectionAndServiceProviderSample.csproj", "{C2118640-8C56-4408-9B89-FCA22D88E049}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIScopeVsTransientVsSingletonSample", "DIScopeVsTransientVsSingletonSample\DIScopeVsTransientVsSingletonSample.csproj", "{2C8D7C4B-2726-4989-A6AF-5783EB12DA2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizationCultureSampe1", "LocalizationCultureSampe1\LocalizationCultureSampe1.csproj", "{728955A2-6CEF-447D-A2B5-7B79278477E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{2C8D7C4B-2726-4989-A6AF-5783EB12DA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C8D7C4B-2726-4989-A6AF-5783EB12DA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C8D7C4B-2726-4989-A6AF-5783EB12DA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728955A2-6CEF-447D-A2B5-7B79278477E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728955A2-6CEF-447D-A2B5-7B79278477E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728955A2-6CEF-447D-A2B5-7B79278477E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728955A2-6CEF-447D-A2B5-7B79278477E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

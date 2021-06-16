@@ -21,6 +21,11 @@ namespace ASPNETCORE_MVCSamples.Controllers
             _context = context;
         }
 
+
+
+
+
+       
         // GET: Movie
         public async Task<IActionResult> Index(string query)
         { 
@@ -55,6 +60,12 @@ namespace ASPNETCORE_MVCSamples.Controllers
             return View(movie);
         }
 
+
+
+
+
+        [Route("Movie/Create")]
+
         // GET: Movie/Create
         public IActionResult Create()
         {
@@ -65,6 +76,9 @@ namespace ASPNETCORE_MVCSamples.Controllers
         // POST: Movie/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
+
+        [Route("Movie/Create")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,Description,Genre,Price")] Movie movie)

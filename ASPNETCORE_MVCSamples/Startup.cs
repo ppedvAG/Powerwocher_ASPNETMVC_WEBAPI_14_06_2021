@@ -58,8 +58,9 @@ namespace ASPNETCORE_MVCSamples
 
             services.AddDbContext<MovieDbContext>(options =>
             {
-                //Configurationen
-                options.UseInMemoryDatabase("MovieDB");
+            //Configurationen
+            //options.UseInMemoryDatabase("MovieDB");
+                options.UseSqlServer(Configuration.GetConnectionString("MovieDBConnectionString"));
             });
             services.AddSession();
 
@@ -205,6 +206,12 @@ namespace ASPNETCORE_MVCSamples
             //Wie kommen wir auf eine Webseite unter MVC, Razor Pages, WebAPI 
             app.UseEndpoints(endpoints =>
             {
+
+                //endpoints.MapControllerRoute(
+                //    name: "movie",
+                //    pattern: "movie/{*movie}", defaults: new { controller = "Movie", action = "Index" });
+
+
                 //Routing für unsere MVC -> Controller -> Index (Get-Methode) 
                 endpoints.MapControllerRoute(
                     name: "default",

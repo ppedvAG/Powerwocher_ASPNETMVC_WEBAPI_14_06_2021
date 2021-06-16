@@ -27,6 +27,11 @@ namespace ASPNETCORE_MVCSamples.Models
         public decimal Price { get; set; }
 
 
+
+        public DateTime Published { get; set; }
+
+
+        //Navigation zu Relationale Daten
         public virtual ICollection<MovieCast> MovieCasts { get; set; }
     }
 

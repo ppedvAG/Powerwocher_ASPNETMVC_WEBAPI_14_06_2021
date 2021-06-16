@@ -9665,6 +9665,7 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.6",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.6",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.7",
+      "Microsoft.EntityFrameworkCore >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.6",
@@ -9736,6 +9737,10 @@
             "version": "[5.0.6, )"
           },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+            "target": "Package",
+            "version": "[5.0.7, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.7, )"
           },

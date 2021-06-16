@@ -1,7 +1,7 @@
 ﻿TAG1:
 - [x] Einführungs DI 
 - [x] Dependency Injection / Seperation of Concerne (3 Stunden) 
-- [ ] Startup-Klasse
+- [x] Startup-Klasse
 - [x] IServiceCollection / ServiceProvider
 - [x] Konfigurationen einlesen
 - [x] DI-SDependencyInjectionSamplepecials -> Mocks, Entwickler - Prozess
@@ -34,20 +34,22 @@ State-Management
 
 Weitere Views
 - [x] PartialView
-- [ ] ViewComponents & Localization -> Referenz Projekte anschauen
+- [x] ViewComponents & Localization -> Referenz Projekte anschauen
 - [x] Identity UI in ASP.NET Core MVC -> weitere UseCases zu PartialView
 
 - Routing
 - [ ] Konventionelles Routing
 - [ ] Attribute Routing
-- [ ] Middleware -> Was ist ein Pipeline (Use, Run, Map)
-- [ ] Customize Middleware für formatierte Bildausgaben (Gallery)+ In Verbindung mit einem Bild-Upload-Formular
+- [x] Middleware -> Was ist ein Pipeline (Use, Run, Map)
+- [x] Customize Middleware für formatierte Bildausgaben (Gallery)+ In Verbindung mit einem Bild-Upload-Formular
 
-- [ ] Filter
+- [ ] Filter -> https://docs.microsoft.com/de-de/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0#resource-filters
+- [ ] AuthorisationFilter Sample
 
 - [ ] EF Core Einstieg 
   - [ ] Code First / Code First Reverse
   - [ ] Repository / UnitOfWork Pattern in EF
+  - [ ] Add-Migration + Update-Database im Bezug auf eine DBContext 
 
 
 - Fragerunde

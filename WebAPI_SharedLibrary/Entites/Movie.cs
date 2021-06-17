@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAPI_Samples.Models
+namespace WebAPI_SharedLibrary.Entities
 {
     public class Movie
     {

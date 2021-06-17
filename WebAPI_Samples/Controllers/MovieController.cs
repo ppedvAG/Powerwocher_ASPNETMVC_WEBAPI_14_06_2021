@@ -6,16 +6,18 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebAPI_Samples.Data;
-using WebAPI_Samples.Models;
+using WebAPI_SharedLibrary.Entities;
 
 namespace WebAPI_Samples.Controllers
 {
+    //Route zu Controller kann per Default -> localhost:12345/api/Movie sein -> [Route("api/[controller]")]
     [Route("[controller]")]
-    [ApiController]
+    [ApiController] //Sagt áus, dass der Movie - Controller sich um einen WEBAPI - Controller handelt
     public class MovieController : ControllerBase
     {
         private readonly MovieDbContext _context;
 
+        //DI Injektion Unterstützung, wie bei MVC 
         public MovieController(MovieDbContext context)
         {
             _context = context;
@@ -32,16 +34,21 @@ namespace WebAPI_Samples.Controllers
 
         // GET: api/Movie/5
         [HttpGet("{id}")]
+
+        //Angabe, welche Status Codes zurück geliefert haben.
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status303SeeOther)]
         public async Task<ActionResult<Movie>> GetMovie(int id)
         {
             var movie = await _context.Movies.FindAsync(id);
 
             if (movie == null)
             {
-                return NotFound();
+                return NotFound(); //404 Fehler
             }
 
-            return movie;
+            return Ok(movie); //200 OK 
         }
         #endregion
 

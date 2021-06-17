@@ -1,0 +1,11 @@
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\bin\Debug\net5.0\WebAPI_SharedLibrary.deps.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\bin\Debug\net5.0\WebAPI_SharedLibrary.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\bin\Debug\net5.0\ref\WebAPI_SharedLibrary.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\bin\Debug\net5.0\WebAPI_SharedLibrary.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.AssemblyInfo.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\ref\WebAPI_SharedLibrary.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.pdb

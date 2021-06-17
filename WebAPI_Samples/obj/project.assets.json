@@ -2096,6 +2096,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "WebAPI_SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/WebAPI_SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPI_SharedLibrary.dll": {}
+        }
       }
     }
   },
@@ -7345,6 +7355,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "WebAPI_SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../WebAPI_SharedLibrary/WebAPI_SharedLibrary.csproj",
+      "msbuildProject": "../WebAPI_SharedLibrary/WebAPI_SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7353,7 +7368,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.6",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "WebAPI_SharedLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7389,7 +7405,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Aktueller Kurs\\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\\WebAPI_SharedLibrary\\WebAPI_SharedLibrary.csproj": {
+              "projectPath": "C:\\Aktueller Kurs\\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\\WebAPI_SharedLibrary\\WebAPI_SharedLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

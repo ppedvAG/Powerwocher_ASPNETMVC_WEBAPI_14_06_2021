@@ -1,0 +1,5 @@
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_HttpClientSample\obj\Debug\net5.0\WebAPI_HttpClientSample.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_HttpClientSample\obj\Debug\net5.0\WebAPI_HttpClientSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_HttpClientSample\obj\Debug\net5.0\WebAPI_HttpClientSample.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_HttpClientSample\obj\Debug\net5.0\WebAPI_HttpClientSample.AssemblyInfo.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_HttpClientSample\obj\Debug\net5.0\WebAPI_HttpClientSample.csproj.CoreCompileInputs.cache

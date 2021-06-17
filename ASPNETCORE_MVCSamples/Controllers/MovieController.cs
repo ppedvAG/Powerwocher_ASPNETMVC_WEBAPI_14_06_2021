@@ -52,6 +52,8 @@ namespace ASPNETCORE_MVCSamples.Controllers
 
             var movie = await _context.Movies
                 .FirstOrDefaultAsync(m => m.Id == id);
+
+            var movie3 = _context.Movies.Find(id);
             if (movie == null)
             {
                 return NotFound();
@@ -76,7 +78,6 @@ namespace ASPNETCORE_MVCSamples.Controllers
         // POST: Movie/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-
 
         [Route("Movie/Create")]
         [HttpPost]

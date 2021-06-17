@@ -52,9 +52,27 @@ Weitere Views
   - [ ] Add-Migration + Update-Database im Bezug auf eine DBContext 
 
 
-- Fragerunde
+WebAPI:
 
-- typischer Transient UseCase (bei dem Scope nicht ausreichen würde).
+- [x] Projektaufbau 
+  - [x] ControllerBase in aspnetcore Sourcecode
+- [ ] HTTP-Methoden (Get / Post / Put / Delete)
+- [ ] HttpVerbs in Verbindung mit Swagger
+- [ ] HttpClient
+- [ ] OpenAPI-SwaggerUI-swagger.json
+  - [ ] Koventionsprobleme mit Swagger.json und WebAPI-Konventionen
+- [ ] Client mit Swagger.json (Aktuell kann es zu Bugs in VS kommen)
+- [ ] Formatter (BJSON, XML)
+- [ ] Customize Formatter (VCARD)
+- [ ] Content Negotation
+- [ ] Datei übertragn mit WebAPI?
+- [ ] Broadcast Videoübertragung via WebAPI
+- [ ] WebAPI + EFCore + MVC als Client
+- [ ] Pagging u. weitere WebAPI Features
+- [ ] Architekturen 
+
+
+
 
 
 
@@ -64,8 +82,6 @@ Link-Collection:
 
 aktuelle .net entwicklung -> themesof.net
 Serilog kann in DB schreiben -> https://www.c-sharpcorner.com/article/how-to-implementation-serilog-in-asp-net-core-5-0-application-with-database/
-
-
 
 Filter vs. Middleware 
 - 

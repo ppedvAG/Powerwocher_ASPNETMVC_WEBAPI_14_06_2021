@@ -136,3 +136,8 @@ C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\obj\Debug\net5.0\WebAPI_Samples.csproj.AssemblyReference.cache
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\WebAPI_SharedLibrary.dll
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\WebAPI_SharedLibrary.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\WebApiContrib.Core.Formatter.Bson.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\WebApiContrib.Core.Formatter.Csv.dll

@@ -31,12 +31,6 @@ namespace WebAPI_HttpClientSample
                 string resultCode = await response.Content.ReadAsStringAsync(); //HTTP-Code
             }
 
-
-
-
-
-
-
             #region GET Movies + Ausgabe
             HttpClient httpClient = new HttpClient();
             // Beispiel-SendAsync -> Allgemein Methode (kann Get/Post/Put/Remove)
@@ -57,11 +51,41 @@ namespace WebAPI_HttpClientSample
 
 
             Console.Write(resultAsJSON);
-            Console.ReadKey();
+
 
             #endregion
 
+            //SwaggerClientSampleCode swaggerClientSample = new SwaggerClientSampleCode();
+            //swaggerClientSample.SwaggerClientSample();
 
+
+            string webAPIWeatherForecastAddress = "https://localhost:44373/WeatherForecast/";
+
+            #region HTTPClient with XML Response
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/xml"));
+
+
+                HttpRequestMessage message = new HttpRequestMessage(HttpMethod.Get, webAPIWeatherForecastAddress);
+                HttpResponseMessage response = await client.SendAsync(message);
+                string xmlText = await response.Content.ReadAsStringAsync();
+                Console.Write(xmlText);
+            }
+
+
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/bson"));
+
+
+                HttpRequestMessage message = new HttpRequestMessage(HttpMethod.Get, webAPIWeatherForecastAddress);
+                HttpResponseMessage response = await client.SendAsync(message);
+                string binResult = await response.Content.ReadAsStringAsync();
+                Console.Write(binResult);
+            }
+
+            #endregion
 
             Console.WriteLine("Hello World!");
         }

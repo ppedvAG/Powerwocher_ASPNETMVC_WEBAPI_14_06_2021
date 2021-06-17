@@ -59,10 +59,10 @@ WebAPI:
 - [x] HTTP-Methoden (Get / Post / Put / Delete)
 - [x] HttpVerbs in Verbindung mit Swagger
 - [O] HttpClient
-- [ ] OpenAPI-SwaggerUI-swagger.json
+- [x] OpenAPI-SwaggerUI-swagger.json
   - [O] Koventionsprobleme mit Swagger.json und WebAPI-Konventionen
-- [ ] Client mit Swagger.json (Aktuell kann es zu Bugs in VS kommen)
-- [ ] Formatter (BJSON, XML)
+- [x] Client mit Swagger.json (Aktuell kann es zu Bugs in VS kommen)
+- [=] Formatter (BJSON, XML) ->XMLBug -> XMLFormatterSerializer nich global angeboten
 - [ ] Customize Formatter (VCARD)
 - [ ] Content Negotation
 - [ ] Datei übertragn mit WebAPI?

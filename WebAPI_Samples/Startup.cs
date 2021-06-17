@@ -13,6 +13,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebAPI_Samples.Data;
+using WebAPI_Samples.Formatters;
+using WebApiContrib.Core.Formatter.Bson;
+using WebApiContrib.Core.Formatter.Csv;
 
 namespace WebAPI_Samples
 {
@@ -29,7 +32,20 @@ namespace WebAPI_Samples
         public void ConfigureServices(IServiceCollection services)
         {
             //Verwenden von WebAPI 
-            services.AddControllers();
+
+            services.AddControllers(options =>
+            {
+                options.RespectBrowserAcceptHeader = true;
+                options.InputFormatters.Insert(0, new VCardInputFormatter());
+                options.OutputFormatters.Insert(0, new VCardOutputFormatter());
+            })
+            .AddXmlSerializerFormatters();
+
+
+            //services.AddControllers()
+            //.AddCsvSerializerFormatters()
+            //.AddXmlSerializerFormatters();
+
 
             // SwaggerUI -> Dokumentation für WebAPI und mehr
             services.AddSwaggerGen(c =>

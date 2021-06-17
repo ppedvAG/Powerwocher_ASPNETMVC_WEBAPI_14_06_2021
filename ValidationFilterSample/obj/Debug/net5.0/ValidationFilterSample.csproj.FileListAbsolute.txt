@@ -77,3 +77,4 @@ C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ValidationFilterSa
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ValidationFilterSample\obj\Debug\net5.0\ValidationFilterSample.pdb
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ValidationFilterSample\obj\Debug\net5.0\ValidationFilterSample.genruntimeconfig.cache
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ValidationFilterSample\obj\Debug\net5.0\ValidationFilterSample.csproj.CopyComplete
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\ValidationFilterSample\obj\Debug\net5.0\ValidationFilterSample.csproj.AssemblyReference.cache

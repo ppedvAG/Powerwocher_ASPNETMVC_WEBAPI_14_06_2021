@@ -11,8 +11,10 @@ using WebAPI_SharedLibrary.Entities;
 namespace WebAPI_Samples.Controllers
 {
     //Route zu Controller kann per Default -> localhost:12345/api/Movie sein -> [Route("api/[controller]")]
+
+    [ApiController]
     [Route("[controller]")]
-    [ApiController] //Sagt áus, dass der Movie - Controller sich um einen WEBAPI - Controller handelt
+     //Sagt áus, dass der Movie - Controller sich um einen WEBAPI - Controller handelt
     public class MovieController : ControllerBase
     {
         private readonly MovieDbContext _context;
@@ -27,9 +29,11 @@ namespace WebAPI_Samples.Controllers
         #region Get-Methoden
         // GET: api/Movie
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Movie>>> GetMovies()
+        //[Produces("application/xml")]
+        public IEnumerable<Movie> Get()
         {
-            return await _context.Movies.ToListAsync();
+
+            return  _context.Movies.ToList();
         }
 
         // GET: api/Movie/5

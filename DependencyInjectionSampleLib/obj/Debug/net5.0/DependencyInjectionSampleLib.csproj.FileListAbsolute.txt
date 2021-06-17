@@ -20,3 +20,4 @@ C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\DependencyInjectio
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.dll
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\DependencyInjectionSampleLib\obj\Debug\net5.0\ref\DependencyInjectionSampleLib.dll
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\DependencyInjectionSampleLib\obj\Debug\net5.0\DependencyInjectionSampleLib.csproj.AssemblyReference.cache

@@ -1,0 +1,139 @@
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.GeneratedMSBuildEditorConfig.editorconfig
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.AssemblyInfoInputs.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.AssemblyInfo.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.csproj.CoreCompileInputs.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.MvcApplicationPartsAssemblyInfo.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorComponent.input.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Pages\ChatRoom.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorComponent.output.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\appsettings.Development.json
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\appsettings.json
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.StaticWebAssets.xml
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.exe
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.deps.json
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.runtimeconfig.json
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.runtimeconfig.dev.json
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\ref\BlazorChat.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.pdb
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.Views.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\BlazorChat.Views.pdb
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\RazorDeclaration\BlazorChat.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.TagHelpers.input.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.TagHelpers.output.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorCoreGenerate.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Pages\ChatRoom.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorAssemblyInfo.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorAssemblyInfo.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\staticwebassets\BlazorChat.StaticWebAssets.Manifest.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\staticwebassets\BlazorChat.StaticWebAssets.xml
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\scopedcss\bundle\BlazorChat.styles.css
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\scopedcss\projectbundle\BlazorChat.bundle.scp.css
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorTargetAssemblyInfo.cache
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorTargetAssemblyInfo.cs
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.Views.pdb
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.csproj.CopyComplete
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\ref\BlazorChat.dll
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.pdb
+C:\KnowledgeCodes\ASPNETCore Blazor Server\BlazorChat\BlazorChat\obj\Debug\net5.0\BlazorChat.genruntimeconfig.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\appsettings.Development.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\appsettings.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.StaticWebAssets.xml
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.exe
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.deps.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.runtimeconfig.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.runtimeconfig.dev.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\ref\BlazorChat.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.Views.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\BlazorChat.Views.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.AssemblyInfo.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.MvcApplicationPartsAssemblyInfo.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorComponent.input.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Pages\ChatRoom.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorComponent.output.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\RazorDeclaration\BlazorChat.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.TagHelpers.input.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.TagHelpers.output.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorCoreGenerate.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Pages\ChatRoom.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorAssemblyInfo.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorAssemblyInfo.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\staticwebassets\BlazorChat.StaticWebAssets.Manifest.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\staticwebassets\BlazorChat.StaticWebAssets.xml
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\scopedcss\bundle\BlazorChat.styles.css
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\scopedcss\projectbundle\BlazorChat.bundle.scp.css
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorTargetAssemblyInfo.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.RazorTargetAssemblyInfo.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.Views.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.csproj.CopyComplete
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\ref\BlazorChat.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\BlazorChat\obj\Debug\net5.0\BlazorChat.genruntimeconfig.cache

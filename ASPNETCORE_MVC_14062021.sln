@@ -34,6 +34,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_SharedLibrary", "Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCNET48Project", "MVCNET48Project\MVCNET48Project.csproj", "{347A8891-BFED-4555-8553-2CFD97EB00AB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_ODATA", "WebAPI_ODATA\WebAPI_ODATA.csproj", "{D7689E74-628E-4AE6-A203-7E2AD0467164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{43283E85-CF75-4E47-9B42-4184FBADFFA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerSignalRApp", "BlazorServerSignalRApp\BlazorServerSignalRApp.csproj", "{F26C4FAB-CD26-4B98-89AC-609BF967E61F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorChat", "BlazorChat\BlazorChat.csproj", "{019C26F0-32C2-44AA-A2DD-92471E95535C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +100,22 @@ Global
 		{347A8891-BFED-4555-8553-2CFD97EB00AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{347A8891-BFED-4555-8553-2CFD97EB00AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{347A8891-BFED-4555-8553-2CFD97EB00AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7689E74-628E-4AE6-A203-7E2AD0467164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7689E74-628E-4AE6-A203-7E2AD0467164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7689E74-628E-4AE6-A203-7E2AD0467164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7689E74-628E-4AE6-A203-7E2AD0467164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43283E85-CF75-4E47-9B42-4184FBADFFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43283E85-CF75-4E47-9B42-4184FBADFFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43283E85-CF75-4E47-9B42-4184FBADFFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43283E85-CF75-4E47-9B42-4184FBADFFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26C4FAB-CD26-4B98-89AC-609BF967E61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26C4FAB-CD26-4B98-89AC-609BF967E61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26C4FAB-CD26-4B98-89AC-609BF967E61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26C4FAB-CD26-4B98-89AC-609BF967E61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019C26F0-32C2-44AA-A2DD-92471E95535C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019C26F0-32C2-44AA-A2DD-92471E95535C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019C26F0-32C2-44AA-A2DD-92471E95535C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019C26F0-32C2-44AA-A2DD-92471E95535C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

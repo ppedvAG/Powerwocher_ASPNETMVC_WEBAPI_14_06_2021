@@ -1,0 +1,16 @@
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\ODataClient.exe
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\ODataClient.deps.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\ODataClient.runtimeconfig.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\ODataClient.runtimeconfig.dev.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\ODataClient.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\ref\ODataClient.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\ODataClient.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ODataClient.csprojAssemblyReference.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ODataClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ODataClient.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ODataClient.AssemblyInfo.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ODataClient.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ODataClient.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ref\ODataClient.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ODataClient.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ODataClient.genruntimeconfig.cache

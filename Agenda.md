@@ -38,18 +38,18 @@ Weitere Views
 - [x] Identity UI in ASP.NET Core MVC -> weitere UseCases zu PartialView
 
 - Routing
-- [ ] Konventionelles Routing
-- [ ] Attribute Routing
+- [x] Konventionelles Routing
+- [x] Attribute Routing
 - [x] Middleware -> Was ist ein Pipeline (Use, Run, Map)
 - [x] Customize Middleware für formatierte Bildausgaben (Gallery)+ In Verbindung mit einem Bild-Upload-Formular
 
-- [ ] Filter -> https://docs.microsoft.com/de-de/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0#resource-filters
-- [ ] AuthorisationFilter Sample
+-  [x] Filter -> https://docs.microsoft.com/de-de/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0#resource-filters
+- [x] AuthorisationFilter Sample (Read and Write Sample)
 
-- [ ] EF Core Einstieg 
-  - [ ] Code First / Code First Reverse
-  - [ ] Repository / UnitOfWork Pattern in EF
-  - [ ] Add-Migration + Update-Database im Bezug auf eine DBContext 
+- [x] EF Core Einstieg 
+  - [x] Code First / Code First Reverse
+  - [x] Repository / UnitOfWork Pattern in EF
+  - [x] Add-Migration + Update-Database im Bezug auf eine DBContext 
 
 
 WebAPI:
@@ -60,18 +60,18 @@ WebAPI:
 - [x] HttpVerbs in Verbindung mit Swagger
 - [O] HttpClient
 - [x] OpenAPI-SwaggerUI-swagger.json
-  - [O] Koventionsprobleme mit Swagger.json und WebAPI-Konventionen
+  - [x] Koventionsprobleme mit Swagger.json und WebAPI-Konventionen
 - [x] Client mit Swagger.json (Aktuell kann es zu Bugs in VS kommen)
 - [x] Formatter (BJSON, XML) ->XMLBug -> XMLFormatterSerializer nich global angeboten
 - [x] Customize Formatter (VCARD)
 - [x] Migration von MVC & WebAPI von 4.8 auf ASP.NET Core
-- [ ] Content Negotation
+- [x] Content Negotation
 - [x] Datei übertragn mit WebAPI?
 - [x] Broadcast Videoübertragung via WebAPI
-- [ ] WebAPI + EFCore + MVC als Client
-- [ ] Pagging u. weitere WebAPI Features
-- [ ] ODATA 8 (beta)
-- [ ] Architekturen 
+- [x] WebAPI + EFCore + MVC als Client
+- [x] Pagging u. weitere WebAPI Features -> Skip/Take für PAging / Sorting und Filtering
+- [x] ODATA 8 (beta)  -> Beispiel Odata-Service Implementierung. 
+- [x] Architekturen -> Hateoas + DataShapping + OData 
 
 
 

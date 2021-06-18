@@ -1,0 +1,16 @@
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\SwaggerClient.exe
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\SwaggerClient.deps.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\SwaggerClient.runtimeconfig.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\SwaggerClient.runtimeconfig.dev.json
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\SwaggerClient.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\ref\SwaggerClient.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\bin\Debug\net5.0\SwaggerClient.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\SwaggerClient.csprojAssemblyReference.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\SwaggerClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\SwaggerClient.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\SwaggerClient.AssemblyInfo.cs
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\SwaggerClient.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\SwaggerClient.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\ref\SwaggerClient.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\SwaggerClient.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_2021_05_31\Powerwoche_MVC_WebAPI_2021_05_31\ODataClient\obj\Debug\net5.0\SwaggerClient.genruntimeconfig.cache

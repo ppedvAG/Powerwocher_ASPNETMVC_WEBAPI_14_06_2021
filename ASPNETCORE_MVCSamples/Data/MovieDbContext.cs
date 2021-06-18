@@ -15,10 +15,8 @@ namespace ASPNETCORE_MVCSamples.Data
 
         }
 
-
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Artists> Artists { get; set; }
-
         public DbSet<MovieCast> MovieCast { get; set; }
     }
 }

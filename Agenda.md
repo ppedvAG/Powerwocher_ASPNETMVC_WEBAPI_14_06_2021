@@ -62,13 +62,15 @@ WebAPI:
 - [x] OpenAPI-SwaggerUI-swagger.json
   - [O] Koventionsprobleme mit Swagger.json und WebAPI-Konventionen
 - [x] Client mit Swagger.json (Aktuell kann es zu Bugs in VS kommen)
-- [=] Formatter (BJSON, XML) ->XMLBug -> XMLFormatterSerializer nich global angeboten
-- [ ] Customize Formatter (VCARD)
+- [x] Formatter (BJSON, XML) ->XMLBug -> XMLFormatterSerializer nich global angeboten
+- [x] Customize Formatter (VCARD)
+- [x] Migration von MVC & WebAPI von 4.8 auf ASP.NET Core
 - [ ] Content Negotation
 - [ ] Datei übertragn mit WebAPI?
 - [ ] Broadcast Videoübertragung via WebAPI
 - [ ] WebAPI + EFCore + MVC als Client
 - [ ] Pagging u. weitere WebAPI Features
+- [ ] ODATA 8 (beta)
 - [ ] Architekturen 
 
 
@@ -84,4 +86,9 @@ aktuelle .net entwicklung -> themesof.net
 Serilog kann in DB schreiben -> https://www.c-sharpcorner.com/article/how-to-implementation-serilog-in-asp-net-core-5-0-application-with-database/
 
 Filter vs. Middleware 
+
+UpgradeTool MVC -> ASP.NET Core MVC
+
+https://docs.microsoft.com/de-de/dotnet/core/porting/upgrade-assistant-aspnetmvc
+https://docs.microsoft.com/de-de/dotnet/core/porting/upgrade-assistant-overview
 - 

@@ -26,11 +26,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelStateFilterSample", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationFilterSample", "ValidationFilterSample\ValidationFilterSample.csproj", "{5102A337-6E78-4BD3-8395-FB3167EBD745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_Samples", "WebAPI_Samples\WebAPI_Samples.csproj", "{454A4A39-710A-41A5-B4FC-E8126E1BA677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_Samples", "WebAPI_Samples\WebAPI_Samples.csproj", "{454A4A39-710A-41A5-B4FC-E8126E1BA677}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_HttpClientSample", "WebAPI_HttpClientSample\WebAPI_HttpClientSample.csproj", "{203D4653-322F-4176-A2A2-F0D2A7C166DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_SharedLibrary", "WebAPI_SharedLibrary\WebAPI_SharedLibrary.csproj", "{15601871-1E7F-4750-82D4-A881E24029EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_SharedLibrary", "WebAPI_SharedLibrary\WebAPI_SharedLibrary.csproj", "{15601871-1E7F-4750-82D4-A881E24029EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCNET48Project", "MVCNET48Project\MVCNET48Project.csproj", "{347A8891-BFED-4555-8553-2CFD97EB00AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +88,10 @@ Global
 		{15601871-1E7F-4750-82D4-A881E24029EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15601871-1E7F-4750-82D4-A881E24029EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15601871-1E7F-4750-82D4-A881E24029EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347A8891-BFED-4555-8553-2CFD97EB00AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347A8891-BFED-4555-8553-2CFD97EB00AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347A8891-BFED-4555-8553-2CFD97EB00AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347A8891-BFED-4555-8553-2CFD97EB00AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

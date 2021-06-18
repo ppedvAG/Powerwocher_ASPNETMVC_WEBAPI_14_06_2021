@@ -14,6 +14,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebAPI_Samples.Data;
 using WebAPI_Samples.Formatters;
+using WebAPI_Samples.Services;
 using WebApiContrib.Core.Formatter.Bson;
 using WebApiContrib.Core.Formatter.Csv;
 
@@ -60,6 +61,8 @@ namespace WebAPI_Samples
                 options.UseInMemoryDatabase("MovieDB");
                 //options.UseSqlServer(Configuration.GetConnectionString("MovieDBConnectionString"));
             });
+
+            services.AddScoped<IVideoStreamService, VideoStreamService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

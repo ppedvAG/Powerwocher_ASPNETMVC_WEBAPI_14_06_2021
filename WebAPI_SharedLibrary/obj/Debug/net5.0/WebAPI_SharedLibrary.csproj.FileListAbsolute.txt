@@ -9,3 +9,4 @@ C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibra
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.dll
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\ref\WebAPI_SharedLibrary.dll
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.pdb
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_SharedLibrary\obj\Debug\net5.0\WebAPI_SharedLibrary.csproj.AssemblyReference.cache

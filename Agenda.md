@@ -66,8 +66,8 @@ WebAPI:
 - [x] Customize Formatter (VCARD)
 - [x] Migration von MVC & WebAPI von 4.8 auf ASP.NET Core
 - [ ] Content Negotation
-- [ ] Datei übertragn mit WebAPI?
-- [ ] Broadcast Videoübertragung via WebAPI
+- [x] Datei übertragn mit WebAPI?
+- [x] Broadcast Videoübertragung via WebAPI
 - [ ] WebAPI + EFCore + MVC als Client
 - [ ] Pagging u. weitere WebAPI Features
 - [ ] ODATA 8 (beta)

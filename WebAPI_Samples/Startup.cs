@@ -40,7 +40,8 @@ namespace WebAPI_Samples
                 options.InputFormatters.Insert(0, new VCardInputFormatter());
                 options.OutputFormatters.Insert(0, new VCardOutputFormatter());
             })
-            .AddXmlSerializerFormatters();
+            //.AddXmlSerializerFormatters()
+            .AddNewtonsoftJson();
 
 
             //services.AddControllers()
@@ -63,6 +64,7 @@ namespace WebAPI_Samples
             });
 
             services.AddScoped<IVideoStreamService, VideoStreamService>();
+            services.AddTransient<IFileService, FileService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

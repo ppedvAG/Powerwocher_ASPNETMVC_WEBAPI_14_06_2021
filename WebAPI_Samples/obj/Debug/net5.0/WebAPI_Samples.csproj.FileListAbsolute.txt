@@ -141,3 +141,5 @@ C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\WebApiContrib.Core.Formatter.Bson.dll
 C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\WebApiContrib.Core.Formatter.Csv.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Aktueller Kurs\Powerwocher_ASPNETMVC_WEBAPI_14_06_2021Kurs\WebAPI_Samples\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
